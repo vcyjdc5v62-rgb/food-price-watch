@@ -1,0 +1,114 @@
+{
+  "source": "Yahoo!ショッピング 商品検索API",
+  "fetched_at": "2026-11-22",
+  "items": [
+    {
+      "category": "米・穀物",
+      "query": "コシヒカリ 5kg",
+      "name": "【新米 令和8年産】産地厳選 コシヒカリ 5kg お米 送料無料 白米",
+      "price": 2880,
+      "store": "こめた Yahoo!ショップ",
+      "url": "https://store.shopping.yahoo.co.jp/kometa/r-049-5.html",
+      "jan_code": ""
+    },
+    {
+      "category": "乳製品・卵",
+      "query": "明治おいしい牛乳 900ml",
+      "name": "明治おいしい牛乳 900ml×6本 （クール便）明治 おいしい牛乳 牛乳 ミルク キャップ付き",
+      "price": 2916,
+      "store": "プラスイン",
+      "url": "https://store.shopping.yahoo.co.jp/plusin/2000088.html",
+      "jan_code": "4902705126558"
+    },
+    {
+      "category": "乳製品・卵",
+      "query": "生卵 10個入り",
+      "name": "高崎のめぐみ 10個 アスタキサンチン入り赤卵 宮崎県産 新鮮 たまご 生卵 産地直送",
+      "price": 520,
+      "store": "タマチャンショップ",
+      "url": "https://store.shopping.yahoo.co.jp/tamachanshop/sizennomiyakogenkiegg-10.html",
+      "jan_code": ""
+    },
+    {
+      "category": "パン",
+      "query": "食パン 6枚",
+      "name": "ヤマザキ ふんわり食パン 6枚切り×3個 山崎製パン",
+      "price": 2055,
+      "store": "ビッグマロン",
+      "url": "https://store.shopping.yahoo.co.jp/bigmaron-store/s-b00cu5ibww-20251210.html",
+      "jan_code": ""
+    },
+    {
+      "category": "肉・魚",
+      "query": "豚こま切れ 国産",
+      "name": "国産豚 豚こま 2kg 500g×4パック 豚肉 切り落とし 小分け 冷凍 大容量 送料無料 お弁当 おかず 晩御飯 肉 レシピ",
+      "price": 4199,
+      "store": "肉処 三代目本多",
+      "url": "https://store.shopping.yahoo.co.jp/matador/kokukiri2k.html",
+      "jan_code": ""
+    },
+    {
+      "category": "肉・魚",
+      "query": "鶏もも肉 国産",
+      "name": "鹿児島いいとこ鶏 モモ肉 2kg 鶏肉 鶏もも肉 国産 大容量 業務用 まとめ買い 唐揚げ BBQ 真空パック 爆買",
+      "price": 4000,
+      "store": "和牛・国産牛専門店 おろちょく",
+      "url": "https://store.shopping.yahoo.co.jp/orochoku/361.html",
+      "jan_code": ""
+    },
+    {
+      "category": "肉・魚",
+      "query": "サーモン 刺身",
+      "name": "サーモン 骨なし 皮なし 刺身 お刺身とろサーモン業務用たっぷり半身（骨なし皮なし約700g/600-800g）サケ 鮭 FF ポイント利用 爆買",
+      "price": 3999,
+      "store": "越前かに職人 甲羅組",
+      "url": "https://store.shopping.yahoo.co.jp/kouragumi/200068.html",
+      "jan_code": ""
+    },
+    {
+      "category": "野菜・果物",
+      "query": "じゃがいも",
+      "name": "北海道産 じゃがいも 黄爵(とうや) 10kg 黄色くなめらかな じゃが芋 野菜 ジャガイモ 国産 北海道産 産地直送 大容量 お得用 徳用 大容量 まとめ買い 業務用",
+      "price": 2480,
+      "store": "IMO企画",
+      "url": "https://store.shopping.yahoo.co.jp/imo/touya.html",
+      "jan_code": ""
+    },
+    {
+      "category": "野菜・果物",
+      "query": "りんご ふじ",
+      "name": "【光センサー選果保証】 高糖度 青森県産 りんご サンふじ 規格外 10kg 10キロ サン ふじ 送料無料",
+      "price": 4700,
+      "store": "寺田フルーツ",
+      "url": "https://store.shopping.yahoo.co.jp/aomori-apple/apple-e10-.html",
+      "jan_code": ""
+    },
+    {
+      "category": "飲料",
+      "query": "伊右衛門 2L",
+      "name": "サントリー　緑茶　伊右衛門　２Ｌ　ペットボトル　１セット（１８本：９本×２ケース）",
+      "price": 3678,
+      "store": "ぱーそなるたのめーる",
+      "url": "https://store.shopping.yahoo.co.jp/tanomail/7688478.html",
+      "jan_code": "4901777332652"
+    },
+    {
+      "category": "大豆・納豆",
+      "query": "おかめ納豆",
+      "name": "[冷蔵] タカノフーズ おかめ納豆 極小粒ミニ3 たれ・からし付 50g×3P×20個",
+      "price": 3650,
+      "store": "ベイシア ヤフーショップ",
+      "url": "https://store.shopping.yahoo.co.jp/beisia/4901160010143-20.html",
+      "jan_code": "4901160010143"
+    },
+    {
+      "category": "冷凍食品",
+      "query": "味の素 冷凍餃子",
+      "name": "[冷凍] 味の素 レンジでギョーザ 10個×10袋",
+      "price": 4785,
+      "store": "Smile Spoon",
+      "url": "https://store.shopping.yahoo.co.jp/smilespoon/7112861-0010.html",
+      "jan_code": "4901001957941"
+    }
+  ]
+}
