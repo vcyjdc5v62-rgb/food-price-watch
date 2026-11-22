@@ -1,3 +1,9 @@
+// Google Analytics (GA4)
+window.dataLayer = window.dataLayer || [];
+function gtag() { dataLayer.push(arguments); }
+gtag("js", new Date());
+gtag("config", "G-WQXKJFL4K4");
+
 const state = { items: [], category: "すべて", query: "", sort: "default", watch: new Set() };
 
 try {
