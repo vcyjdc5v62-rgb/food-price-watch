@@ -1,0 +1,6 @@
+[project]
+name = "food-price-watch"
+version = "1.0.0"
+description = "食品の価格情報を表示するウェブサイト"
+requires-python = ">=3.11"
+dependencies = []
