@@ -1,7 +1,10 @@
 import json
 import os
+import sys
 import threading
 import time
+import traceback
+import urllib.error
 import urllib.parse
 import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -31,6 +34,10 @@ _cache = {"data": None, "at": 0}
 _lock = threading.Lock()
 
 
+def log(msg):
+    print(msg, file=sys.stderr, flush=True)
+
+
 def load_snapshot():
     try:
         return json.loads((BASE / "prices.json").read_text(encoding="utf-8"))
@@ -46,8 +53,19 @@ def fetch_prices():
         )
         url = "https://shopping.yahooapis.jp/ShoppingWebService/V3/itemSearch?" + params
         req = urllib.request.Request(url, headers={"User-Agent": "food-price-watch/1.0"})
-        with urllib.request.urlopen(req, timeout=15) as r:
-            data = json.loads(r.read().decode("utf-8"))
+        try:
+            with urllib.request.urlopen(req, timeout=15) as r:
+                data = json.loads(r.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            try:
+                body = e.read().decode("utf-8", "replace")[:300]
+            except Exception:
+                body = ""
+            log(f"[fetch] query={q!r} HTTP {e.code} {e.reason}: {body}")
+            continue
+        except Exception as e:
+            log(f"[fetch] query={q!r} error: {type(e).__name__}: {e}")
+            continue
         pick = None
         for h in data.get("hits", []):
             if h.get("inStock") and h.get("price"):
@@ -84,8 +102,11 @@ def get_prices():
                 if data["items"]:
                     _cache["data"], _cache["at"] = data, now
                     return data
+                log("[prices] fetch completed but returned 0 items; serving snapshot")
             except Exception:
-                pass
+                log("[prices] fetch failed:\n" + traceback.format_exc())
+        else:
+            log("[prices] YAHOO_CLIENT_ID is not set; serving snapshot")
         if not _cache["data"]:
             _cache["data"] = load_snapshot()
         return _cache["data"]
@@ -134,4 +155,5 @@ class Handler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
+    log(f"[startup] YAHOO_CLIENT_ID set: {bool(CLIENT_ID)} (length={len(CLIENT_ID)})")
     ThreadingHTTPServer(("0.0.0.0", PORT), Handler).serve_forever()
