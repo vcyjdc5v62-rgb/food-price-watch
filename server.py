@@ -15,6 +15,27 @@ PORT = int(os.environ.get("PORT", "8000"))
 CLIENT_ID = os.environ.get("YAHOO_CLIENT_ID", "")
 CACHE_TTL = 6 * 3600
 
+VC_SID = os.environ.get("VC_SID", "3789335")
+VC_PID = os.environ.get("VC_PID", "2025875")
+VC_BASE = "https://ck.jp.ap.valuecommerce.com/servlet/referral"
+
+
+def affiliate_url(url):
+    if not url or url.startswith(VC_BASE):
+        return url
+    return f"{VC_BASE}?sid={VC_SID}&pid={VC_PID}&vc_url={urllib.parse.quote(url, safe='')}"
+
+
+def with_affiliate_links(data):
+    out = dict(data)
+    items = []
+    for it in data.get("items", []):
+        it = dict(it)
+        it["url"] = affiliate_url(it.get("url", ""))
+        items.append(it)
+    out["items"] = items
+    return out
+
 QUERIES = [
     ("米・穀物", "コシヒカリ 5kg"),
     ("乳製品・卵", "明治おいしい牛乳 900ml"),
@@ -141,7 +162,7 @@ class Handler(BaseHTTPRequestHandler):
         if path == "/health":
             return self._send(200, b"ok", "text/plain")
         if path == "/api/prices":
-            body = json.dumps(get_prices(), ensure_ascii=False).encode("utf-8")
+            body = json.dumps(with_affiliate_links(get_prices()), ensure_ascii=False).encode("utf-8")
             return self._send(200, body, "application/json; charset=utf-8")
         if path in STATIC:
             name, ctype = STATIC[path]
