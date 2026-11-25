@@ -1,18 +1,114 @@
 {
-  "fetched_at": "2026-11-24",
+  "fetched_at": "2026-11-25",
   "items": [
-    {"category": "米・穀物", "jan_code": "", "name": "【新米 令和8年産】産地厳選 コシヒカリ 5kg お米 送料無料 白米", "price": 2880, "query": "コシヒカリ 5kg", "store": "こめた Yahoo!ショップ", "url": "https://store.shopping.yahoo.co.jp/kometa/r-049-5.html"},
-    {"category": "乳製品・卵", "jan_code": "4902705126558", "name": "明治おいしい牛乳 900ml×6本 （クール便）明治 おいしい牛乳 牛乳 ミルク キャップ付き", "price": 2916, "query": "明治おいしい牛乳 900ml", "store": "プラスイン", "url": "https://store.shopping.yahoo.co.jp/plusin/2000088.html"},
-    {"category": "乳製品・卵", "jan_code": "", "name": "夢王 10個入り×2パック スーパープレミアム卵 日本一のたまご たまごかけごはん祭り 三連覇殿堂入り 3年連続優勝 ゆめおう 卵 たまご 美味しい 新鮮 赤玉 濃厚", "price": 3880, "query": "生卵 10個入り", "store": "想いを繋ぐ百貨店 TSUNAGU", "url": "https://store.shopping.yahoo.co.jp/offer1999/taku1172.html"},
-    {"category": "パン", "jan_code": "", "name": "ヤマザキ ふんわり食パン 6枚切り×3個 山崎製パン", "price": 2055, "query": "食パン 6枚", "store": "ビッグマロン", "url": "https://store.shopping.yahoo.co.jp/bigmaron-store/s-b00cu5ibww-20251210.html"},
-    {"category": "インスタント麺", "jan_code": "49698626", "name": "日清食品 カップヌードル カップ麺 カップラーメン 1セット（20食）", "price": 4267, "query": "カップヌードル 日清", "store": "LOHACO by アスクル", "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/j665134/"},
-    {"category": "お菓子", "jan_code": "4901330504946", "name": "カルビー ポテトチップス BIGBAG(ビッグバッグ) 157g 3種各4袋セット(計12袋) うすしお・のりしお・コンソメパンチ お菓子 スナック菓子", "price": 3980, "query": "ポテトチップス うすしお カルビー", "store": "イーコンビニ", "url": "https://store.shopping.yahoo.co.jp/e-convini/0420061001868-ha001.html"},
-    {"category": "飲料", "jan_code": "4902102157407", "name": "11/22〜11/29限定P3% 送料無料 コカ・コーラ ラベルレス PET 500ml×1ケース/24本 炭酸飲料", "price": 2498, "query": "コカ・コーラ 500ml 24本", "store": "リカーBOSS 2号店", "url": "https://store.shopping.yahoo.co.jp/liquor-boss2/32338.html"},
-    {"category": "飲料", "jan_code": "4901777332652", "name": "サントリー　緑茶　伊右衛門　２Ｌ　ペットボトル　１セット（１８本：９本×２ケース）", "price": 3678, "query": "伊右衛門 2L", "store": "ぱーそなるたのめーる", "url": "https://store.shopping.yahoo.co.jp/tanomail/7688478.html"},
-    {"category": "乳製品・卵", "jan_code": "4902705098824", "name": "明治ブルガリアヨーグルトLB81プレーンHOME MADE STORY 400g×6個 【本州送料無料】 乳酸菌 要冷蔵 クール便 朝食 デザート 料理 まとめ買い 箱買い meiji", "price": 2907, "query": "明治ブルガリアヨーグルト", "store": "明治ミルクおとどけnet R1 ザバス", "url": "https://store.shopping.yahoo.co.jp/meijimilk/2856-000503.html"},
-    {"category": "大豆・納豆", "jan_code": "4901160010143", "name": "[冷蔵] タカノフーズ おかめ納豆 極小粒ミニ3 たれ・からし付 50g×3P×20個", "price": 3650, "query": "おかめ納豆", "store": "ベイシア ヤフーショップ", "url": "https://store.shopping.yahoo.co.jp/beisia/4901160010143-20.html"},
-    {"category": "冷凍食品", "jan_code": "4901001957941", "name": "[冷凍] 味の素 レンジでギョーザ 10個×10袋", "price": 4785, "query": "味の素 冷凍餃子", "store": "Smile Spoon", "url": "https://store.shopping.yahoo.co.jp/smilespoon/7112861-0010.html"},
-    {"category": "野菜・果物", "jan_code": "", "name": "バナナ 業務用 訳あり 甘熟王 約5kg フィリピン産 スミフル", "price": 2480, "query": "バナナ 訳あり", "store": "バナナのスミフルYahoo!店", "url": "https://store.shopping.yahoo.co.jp/sumifru/bhlcl5.html"}
+    {
+      "category": "米・穀物",
+      "jan_code": "",
+      "name": "新潟産コシヒカリ 白米5kg （5kg×1袋） 令和８年産 厳選米 「香り」「ツヤ」「甘味」「粘り」高水準 プロ仕様 自慢のコシヒカリ",
+      "price": 2900,
+      "query": "コシヒカリ 5kg",
+      "store": "滝沢米穀店",
+      "url": "https://store.shopping.yahoo.co.jp/takizawakomeya/2019090024.html"
+    },
+    {
+      "category": "乳製品・卵",
+      "jan_code": "4902705126558",
+      "name": "明治おいしい牛乳 900ml×6本 （クール便）明治 おいしい牛乳 牛乳 ミルク キャップ付き",
+      "price": 2916,
+      "query": "明治おいしい牛乳 900ml",
+      "store": "プラスイン",
+      "url": "https://store.shopping.yahoo.co.jp/plusin/2000088.html"
+    },
+    {
+      "category": "乳製品・卵",
+      "jan_code": "",
+      "name": "夢王 10個入り×2パック スーパープレミアム卵 日本一のたまご たまごかけごはん祭り 三連覇殿堂入り 3年連続優勝 ゆめおう 卵 たまご 美味しい 新鮮 赤玉 濃厚",
+      "price": 3880,
+      "query": "生卵 10個入り",
+      "store": "想いを繋ぐ百貨店 TSUNAGU",
+      "url": "https://store.shopping.yahoo.co.jp/offer1999/taku1172.html"
+    },
+    {
+      "category": "パン",
+      "jan_code": "",
+      "name": "ヤマザキ ふんわり食パン 6枚切り×3個 山崎製パン",
+      "price": 2055,
+      "query": "食パン 6枚",
+      "store": "ビッグマロン",
+      "url": "https://store.shopping.yahoo.co.jp/bigmaron-store/s-b00cu5ibww-20251210.html"
+    },
+    {
+      "category": "インスタント麺",
+      "jan_code": "49698626",
+      "name": "日清食品 カップヌードル カップ麺 カップラーメン 1セット（20食）",
+      "price": 4267,
+      "query": "カップヌードル 日清",
+      "store": "LOHACO by アスクル",
+      "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/j665134/"
+    },
+    {
+      "category": "お菓子",
+      "jan_code": "4901330504946",
+      "name": "カルビー ポテトチップス BIGBAG(ビッグバッグ) 157g 3種各4袋セット(計12袋) うすしお・のりしお・コンソメパンチ お菓子 スナック菓子",
+      "price": 3980,
+      "query": "ポテトチップス うすしお カルビー",
+      "store": "イーコンビニ",
+      "url": "https://store.shopping.yahoo.co.jp/e-convini/0420061001868-ha001.html"
+    },
+    {
+      "category": "飲料",
+      "jan_code": "4902102157407",
+      "name": "11/22〜11/29限定P3% 送料無料 コカ・コーラ ラベルレス PET 500ml×1ケース/24本 炭酸飲料",
+      "price": 2498,
+      "query": "コカ・コーラ 500ml 24本",
+      "store": "リカーBOSS 2号店",
+      "url": "https://store.shopping.yahoo.co.jp/liquor-boss2/32338.html"
+    },
+    {
+      "category": "飲料",
+      "jan_code": "4901777332652",
+      "name": "サントリー　緑茶　伊右衛門　２Ｌ　ペットボトル　１セット（１８本：９本×２ケース）",
+      "price": 3678,
+      "query": "伊右衛門 2L",
+      "store": "ぱーそなるたのめーる",
+      "url": "https://store.shopping.yahoo.co.jp/tanomail/7688478.html"
+    },
+    {
+      "category": "乳製品・卵",
+      "jan_code": "4902705098824",
+      "name": "明治ブルガリアヨーグルトLB81プレーンHOME MADE STORY 400g×6個 【本州送料無料】 乳酸菌 要冷蔵 クール便 朝食 デザート 料理 まとめ買い 箱買い meiji",
+      "price": 2907,
+      "query": "明治ブルガリアヨーグルト",
+      "store": "明治ミルクおとどけnet R1 ザバス",
+      "url": "https://store.shopping.yahoo.co.jp/meijimilk/2856-000503.html"
+    },
+    {
+      "category": "大豆・納豆",
+      "jan_code": "4901160010143",
+      "name": "[冷蔵] タカノフーズ おかめ納豆 極小粒ミニ3 たれ・からし付 50g×3P×20個",
+      "price": 3650,
+      "query": "おかめ納豆",
+      "store": "ベイシア ヤフーショップ",
+      "url": "https://store.shopping.yahoo.co.jp/beisia/4901160010143-20.html"
+    },
+    {
+      "category": "冷凍食品",
+      "jan_code": "4901001957941",
+      "name": "[冷凍] 味の素 レンジでギョーザ 10個×10袋",
+      "price": 4785,
+      "query": "味の素 冷凍餃子",
+      "store": "Smile Spoon",
+      "url": "https://store.shopping.yahoo.co.jp/smilespoon/7112861-0010.html"
+    },
+    {
+      "category": "野菜・果物",
+      "jan_code": "",
+      "name": "バナナ 業務用 訳あり 甘熟王 約5kg フィリピン産 スミフル",
+      "price": 2480,
+      "query": "バナナ 訳あり",
+      "store": "バナナのスミフルYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/sumifru/bhlcl5.html"
+    }
   ],
   "source": "Yahoo!ショッピング 商品検索API"
 }
