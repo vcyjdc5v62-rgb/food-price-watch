@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "items": [
     {
       "category": "米・穀物",
@@ -57,12 +57,12 @@
     },
     {
       "category": "飲料",
-      "jan_code": "4902102157407",
-      "name": "11/22〜11/29限定P3% 送料無料 コカ・コーラ ラベルレス PET 500ml×1ケース/24本 炭酸飲料",
-      "price": 2498,
+      "jan_code": "4902102042970",
+      "name": "11/22〜11/29限定P5% あすつく 送料無料 コカ・コーラ 缶 500ml×1ケース/24本 コカコーラ 缶 炭酸 ジュース",
+      "price": 2635,
       "query": "コカ・コーラ 500ml 24本",
-      "store": "リカーBOSS 2号店",
-      "url": "https://store.shopping.yahoo.co.jp/liquor-boss2/32338.html"
+      "store": "リカーBOSS",
+      "url": "https://store.shopping.yahoo.co.jp/liquor-boss1/01875.html"
     },
     {
       "category": "飲料",
