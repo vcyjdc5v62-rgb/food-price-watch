@@ -16,7 +16,7 @@ CLIENT_ID = os.environ.get("YAHOO_CLIENT_ID", "")
 CACHE_TTL = 6 * 3600
 
 VC_SID = os.environ.get("VC_SID", "3789335")
-VC_PID = os.environ.get("VC_PID", "2025875")
+VC_PID = os.environ.get("VC_PID", "892759628")
 VC_BASE = "https://ck.jp.ap.valuecommerce.com/servlet/referral"
 
 
